@@ -1,0 +1,14 @@
+1- php artisan make:model questions -m
+عمل موديل باسم  و جدول باسم
+-----------------------------------------
+2- php artisan db:seed --class=CatSeeder 
+عمل رن تنفيذ الداتا بيز 
+--------------------------------------------
+3- php artisan make:seeder CatSeeder
+------------------------------------------
+4- php artisan make:factory SkillFactory
+بيعمل ادخال بيانات للجدول بكمية كبيرة
+----------------------------------------
+5- php artisan make:middleware LangMiddleware
+---------------------------
+6- php artisan make:component Navbar
